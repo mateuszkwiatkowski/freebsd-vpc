@@ -11,6 +11,7 @@ import (
 	"github.com/joyent/freebsd-vpc/cmd/vpc/ethlink"
 	"github.com/joyent/freebsd-vpc/cmd/vpc/intf"
 	"github.com/joyent/freebsd-vpc/cmd/vpc/list"
+	"github.com/joyent/freebsd-vpc/cmd/vpc/mux"
 	"github.com/joyent/freebsd-vpc/cmd/vpc/shell"
 	"github.com/joyent/freebsd-vpc/cmd/vpc/version"
 	"github.com/joyent/freebsd-vpc/cmd/vpc/vm"
@@ -32,12 +33,13 @@ import (
 const cmdName = "root"
 
 var subCommands = command.Commands{
+	agent.Cmd,
 	db.Cmd,
 	doc.Cmd,
 	ethlink.Cmd,
 	intf.Cmd,
 	list.Cmd,
-	agent.Cmd,
+	mux.Cmd,
 	shell.Cmd,
 	version.Cmd,
 	vm.Cmd,
