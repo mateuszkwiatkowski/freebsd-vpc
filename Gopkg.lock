@@ -14,12 +14,13 @@
     "libexec/go/src/go.freebsd.org/sys/vpc",
     "libexec/go/src/go.freebsd.org/sys/vpc/ethlink",
     "libexec/go/src/go.freebsd.org/sys/vpc/mgmt",
+    "libexec/go/src/go.freebsd.org/sys/vpc/mux",
     "libexec/go/src/go.freebsd.org/sys/vpc/vmnic",
     "libexec/go/src/go.freebsd.org/sys/vpc/vpcp",
     "libexec/go/src/go.freebsd.org/sys/vpc/vpcsw",
     "libexec/go/src/go.freebsd.org/sys/vpc/vpctest"
   ]
-  revision = "371e716194808c4cb532c2a30d0d00fd0172c710"
+  revision = "afaf13bc2d312550d1f1e79f46cbd65bd12d75e3"
   source = "github.com/joyent/freebsd/libexec/go/src/go.freebsd.org/sys/vpc"
 
 [[projects]]
@@ -265,6 +266,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2918ad861f19c9fe96740bebefff9e91fe2290b6b256ffcb34a5a03e4777d581"
+  inputs-digest = "f725c50e6687e1d61cf373d030745fd7428fa63d1fbcf6c8a0eee819eb026d12"
   solver-name = "gps-cdcl"
   solver-version = 1

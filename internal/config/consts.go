@@ -29,6 +29,8 @@ const (
 	KeyPGHost     = "db.host"
 	KeyPGPort     = "db.port"
 
+	KeyMuxCreateMuxID = "mux.create.mux-id"
+
 	KeySWPortAddEthLinkID          = "switch.port.add.ethlink-id"
 	KeySWPortAddID                 = "switch.port.add.id"
 	KeySWPortAddL2Name             = "switch.port.add.l2-name"

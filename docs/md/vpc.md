@@ -55,6 +55,7 @@ $ vpc list
 * [vpc ethlink](/command/vpc_ethlink)	 - VPC EthLink management
 * [vpc interface](/command/vpc_interface)	 - VPC interface management
 * [vpc list](/command/vpc_list)	 - list counts of each VPC type
+* [vpc mux](/command/vpc_mux)	 - VPC packet multiplexing configuration
 * [vpc shell](/command/vpc_shell)	 - shell commands
 * [vpc switch](/command/vpc_switch)	 - VPC switch management
 * [vpc version](/command/vpc_version)	 - Version vpc schema
