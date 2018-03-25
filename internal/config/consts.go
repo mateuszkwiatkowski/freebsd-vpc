@@ -29,11 +29,13 @@ const (
 	KeyPGHost     = "db.host"
 	KeyPGPort     = "db.port"
 
-	KeyMuxConnectMuxID       = "mux.connect.mux-id"
 	KeyMuxConnectInterfaceID = "mux.connect.interface-id"
+	KeyMuxConnectMuxID       = "mux.connect.mux-id"
 	KeyMuxCreateMuxID        = "mux.create.mux-id"
 	KeyMuxDestroyMuxID       = "mux.destroy.mux-id"
 	KeyMuxDisconnectMuxID    = "mux.disconnect.mux-id"
+	KeyMuxListenAddr         = "mux.listen.addr"
+	KeyMuxListenMuxID        = "mux.listen.mux-id"
 
 	KeySWPortAddEthLinkID          = "switch.port.add.ethlink-id"
 	KeySWPortAddID                 = "switch.port.add.id"
